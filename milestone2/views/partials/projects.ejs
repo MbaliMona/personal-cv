@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Project</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <script src="https://kit.fontawesome.com/c61048a71b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+
+        <%- include('./partials/nav') %>
+
+        <div class="projects">
+            <div class="title">
+                <h2>Projects</h2>
+            </div>
+            <div class="box">
+                <div class="card">
+                    <div class="img-web">
+                        <h5>Web Development</h5>
+                        <div class="p">
+                            <p>I am currently working on an airbnb clone website using React.js, html and css</p>
+                            <p></p>
+                            <p style="text-align: center;">
+                                <a href="https://github.com/MbaliMona/airbnb-clone" class="button">Read more</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <i class="fas fa-bars"></i>
+                        <h5>Database app</h5>
+                        <div class="p">
+                            <p>I have developed many .Net and ASP.NET applications with Bootstrap and MVC alongside
+                                SQL(MSSQL,MSSQLM)</p>
+
+                            <p style="text-align: center;">
+                                <a href="#" class="button">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="img-mainframe">
+                            <h5>Mainframes</h5>
+                            <div class="p">
+                                <p>I have compeleted my IBM Z Xplore Concepts badge. I have knowlege about the IBM
+                                    Mainframe, REXX, Python and JCL</p>
+                                <p style="text-align: center;">
+                                    <a href="#" class="button">Read More</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <%- include('./partials/footer') %>
+</body>
+
+</html>
